@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+	<div class="flex flex-col">
+		<div class="w-full py-12 sm:max-w-2xl mx-auto
+		">
+			<h1 class="font-extrabold text-neutral-800 text-4xl">Simple UI Kit</h1>
+			<h2 class="font-bold text-neutral-700 text-2xl">
+				Made with
+				<span class="inline-flex items-baseline">
+					<img class="object-fill h-8 w-8 self-center" src="https://images.tute.io/tute/topic/tailwind-css.png">
+					Tailwind
+				</span>
+			</h2>
+			<div class="flex flex-col gap-12 mt-10">
+				<div class="flex flex-col gap-2">
+					<h3 class="font-bold text-2xl">Buttons</h3>
+					<div class="flex flex-wrap items-center justify-start gap-3">
+						<button class="hover:bg-gradient-to-br hover:from-sky-500 to-blue-500 border-2 border-blue-400 py-1.5 px-5 rounded-xl font-semibold text-gray-700 hover:text-white transition ease-in ease-out duration-200 focus:outline-none focus:shadow-lg" type="button">Outline</button>
+						<button class="bg-gradient-to-br from-sky-500 hover:from-sky-400 to-blue-500 py-1.5 px-5 rounded-xl font-semibold text-white transition ease-in duration-200 focus:outline-none focus:shadow-lg" type="button">Default</button>
+						<button class="bg-gradient-to-br from-sky-500 hover:from-sky-400 to-blue-500 py-1.5 px-5 rounded-xl font-semibold text-white transition ease-in duration-200 focus:outline-none focus:shadow-lg flex items-center justify-center gap-1" type="button">
+							<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clip-rule="evenodd"></path></svg>
+							With icon
+						</button>
+					</div>
+					<div class="flex flex-wrap items-center justify-start gap-3">
+						<button class="hover:bg-gradient-to-br hover:from-neutral-800 hover:to-gray-600 border-2 border-neutral-400 py-1.5 px-5 rounded-xl font-semibold text-gray-700 hover:text-white transition ease-in ease-out duration-200 focus:outline-none focus:shadow-lg" type="button">Outline</button>
+						<button class="bg-gradient-to-br from-neutral-800 hover:from-neutral-700 to-gray-600 py-1.5 px-5 rounded-xl font-semibold text-white transition ease-in duration-200 focus:outline-none focus:shadow-lg" type="button">Default</button>
+						<button class="bg-gradient-to-br from-neutral-800 hover:from-neutral-700 to-gray-600 py-1.5 px-5 rounded-xl font-semibold text-white transition ease-in duration-200 focus:outline-none focus:shadow-lg flex items-center justify-center gap-1" type="button">
+							<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clip-rule="evenodd"></path></svg>
+							With icon
+						</button>
+					</div>
+					
+				</div>
+				<div class="flex flex-col gap-2">
+					<h3 class="font-bold text-2xl">Inputs</h3>
+					<div class="flex flex-wrap items-center justify-start gap-3">
+						<input type="email" placeholder="email@example.com" class="bg-white rounded-xl border-2 border-gray-200 py-2 px-4 focus:outline-none focus:border-blue-400 text-sm transition ease-in duration-200 text-neutral-800">
+						<div class="flex items-center justify-start">
+							<div class="py-2 px-2 border-t-2 border-l-2 border-b-2 h-full bg-gray-200 flex items-center justify-center rounded-l-xl">
+								<svg class="w-5 h-5 text-gray-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+							</div>
+							<input type="email" placeholder="with-icon@example.com" class="bg-white rounded-r-xl border-2 py-2 px-3 focus:outline-none focus:border-blue-400 text-sm transition ease-in duration-200 text-neutral-800">
+						</div>
+					</div>
+				</div>
+				<div class="flex flex-col gap-2">
+					<h3 class="font-bold text-2xl">Cards</h3>
+					<div class="flex flex-wrap items-start justify-start gap-3">
+						<div class="flex flex-col w-64 border-2 rounded-xl">
+							<div class="w-full rounded-t-xl h-32 bg-gray-200 animate-pulse">
+								
+							</div>
+							<div class="p-3 flex flex-col gap-1 items-start justify-center">
+								<h3 class="font-semibold text-neutral-900 text-xl">Card title</h3>
+								<p class="text-neutral-700 text-justify text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<button class="bg-gradient-to-br mt-5 from-sky-500 hover:from-sky-400 to-blue-500 py-1.5 px-5 rounded-xl font-semibold text-white transition ease-in duration-200 focus:outline-none focus:shadow-lg" type="button">Do something</button>
+							</div>
+						</div>
+						<div class="flex flex-col items-center justify-center p-4 w-64 border-2 rounded-xl">
+							<svg class="w-12 h-12 text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
+							<h3 class="font-bold text-neutral-900 text-xl">Remove item</h3>
+							<p class="text-neutral-700 text-center">Are you sure you want to delete this item?</p>
+							<div class="flex items-center justify-center gap-2 mt-5">
+								<button class="hover:bg-gradient-to-br hover:from-neutral-800 hover:to-gray-600 border-2 border-neutral-400 py-0.5 px-5 rounded-xl font-semibold text-gray-700 hover:text-white transition ease-in ease-out duration-200 focus:outline-none focus:shadow-lg" type="button">Cancel</button>
+								<button class="bg-gradient-to-br from-neutral-800 hover:from-neutral-700 to-gray-600 py-1 px-5 rounded-xl font-semibold text-white transition ease-in duration-200 focus:outline-none focus:shadow-lg" type="button">Delete</button>								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="flex flex-col gap-2">
+					<h3 class="font-bold text-2xl">Badges</h3>
+					<div class="flex flex-wrap items-start justify-start gap-3">
+						<button type="button" class="bg-gradient-to-br from-sky-500 hover:from-sky-400 to-blue-500 py-1.5 px-3 rounded-xl font-semibold text-white transition ease-in duration-200 focus:outline-none focus:shadow-lg flex gap-2 items-center justify-center relative">
+							Notifications
+							<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"></path></svg>
+							<span class="absolute top-1 right-2 h-4 w-4 bg-blue-400 animate-ping rounded-full"></span>
+							<span class="absolute top-1 right-2 h-4 w-4 text-xs text-neutral-50 bg-red-400 rounded-full">3</span>
+						</button>
+						<button class="bg-red-500 hover:bg-red-400 flex items-center justify-center gap-0.5 py-1 px-3 rounded-xl text-sm text-white font-semibold" type="button">
+							Close
+							<svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+						</button>
+						<button class="bg-yellow-300 hover:bg-yellow-400 text-yellow-700 py-1 px-3 rounded-xl text-sm text-white font-semibold" type="button">
+							Pending
+						</button>
+						<button class="bg-green-300 hover:bg-green-400 text-green-700 py-1 px-3 rounded-xl text-sm text-white font-semibold" type="button">
+							Accepted
+						</button>
+					</div>
+				</div>
+				<div class="flex flex-col gap-2">
+					<h3 class="font-bold text-2xl">Alerts</h3>
+					<div class="flex flex-col items-start justify-start gap-3">
+						<div class="w-full flex items-center justify-between rounded-r-lg border-l-4 border-red-500 bg-red-300 px-3 py-2">
+							<div class="flex flex-col items-start justify-center">
+								<h4 class="font-semibold text-red-800 text-lg">Danger alert</h4>
+								<p class="text-red-700">A simple danger alert—check it out!.</p>								
+							</div>
+							<span class="bg-red-200 p-2 rounded-full">
+								<svg class="w-6 h-6 text-red-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+							</span>
+						</div>
+						<div class="w-full flex items-center justify-between rounded-r-lg border-l-4 border-green-500 bg-green-300 px-3 py-2">
+							<div class="flex flex-col items-start justify-center">
+								<h4 class="font-semibold text-green-800 text-lg">Success alert</h4>
+								<p class="text-green-700">A simple success alert—check it out!.</p>								
+							</div>
+							<span class="bg-green-200 p-2 rounded-full">
+								<svg class="w-6 h-6 text-green-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+							</span>
+						</div>
+						<div class="w-full flex items-center justify-between rounded-r-lg border-l-4 border-yellow-500 bg-yellow-300 px-3 py-2">
+							<div class="flex flex-col items-start justify-center">
+								<h4 class="font-semibold text-yellow-800 text-lg">Warning alert</h4>
+								<p class="text-yellow-700">A simple success alert—check it out!.</p>								
+							</div>
+							<span class="bg-yellow-200 p-2 rounded-full">
+								<svg class="w-6 h-6 text-yellow-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
+							</span>
+						</div>
+						<div class="w-full flex items-center justify-between rounded-r-lg border-l-4 border-blue-500 bg-blue-300 px-3 py-2">
+							<div class="flex flex-col items-start justify-center">
+								<h4 class="font-semibold text-blue-800 text-lg">Info alert</h4>
+								<p class="text-blue-700">A simple info alert—check it out!.</p>								
+							</div>
+							<span class="bg-blue-200 p-2 rounded-full">
+								<svg class="w-6 h-6 text-blue-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
